@@ -83,12 +83,7 @@ public class ProductCatalogue extends AbstractComponents {
 	            .anyMatch(cartproducts -> cartproducts.getText().equalsIgnoreCase(productName));
 
 	       // Assert.assertTrue(match);
-		match.booleanValue();
-		match.booleanValue();
 		
-		// Newly Added
-		match.booleanValue();
-		match.booleanValue();
 	}
 	
 
