@@ -47,6 +47,7 @@ public class LandingPage extends AbstractComponents{
 	{
 		driver.get("https://rahulshettyacademy.com/client/");
         driver.manage().window().maximize();
+        //i juts want to push this file
 	}
 	
 
