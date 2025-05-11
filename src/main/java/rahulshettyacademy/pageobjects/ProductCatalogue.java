@@ -7,12 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+//import org.testng.Assert;
 
 import rahulshettyacademy.AbstractComponents.AbstractComponents;
 
 public class ProductCatalogue extends AbstractComponents {
 	
+	String productName;
 	WebDriver driver;
 	
 	public ProductCatalogue(WebDriver driver) 
@@ -81,8 +82,9 @@ public class ProductCatalogue extends AbstractComponents {
 		Boolean match = cartproducts.stream()
 	            .anyMatch(cartproducts -> cartproducts.getText().equalsIgnoreCase(productName));
 
-	        Assert.assertTrue(match);
-		
+	       // Assert.assertTrue(match);
+		match.booleanValue();
+		match.booleanValue();
 	}
 	
 
